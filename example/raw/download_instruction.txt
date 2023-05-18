@@ -1,3 +1,14 @@
 download url:
 annotated FISH images in meta:
-Hela 
+
+GAS5_Hela_oddsTmrEvensA594_456
+GAS5_Hela_oddsTmrEvensA594_455
+GAS5_Hela_fullProbeA594_458
+GAS5_Hela_fullProbeA594_457
+https://www.dropbox.com/sh/wh7ic7sec3v3swl/AAA3E6hg29P0b_Qe-QBxGFDQa/MaggieData/GAS5/Hela?dl=0&subfolder_nav_tracking=1
+
+NM_139078_Hela_oddsTmrEvensA594_242
+NM_139078_Hela_oddsTmrEvensA594_241
+NM_139078_Hela_fullProbeTmr_Xloc_010202A594_243
+NM_139078_Hela_fullProbeTmr_Xloc_010202A594_244
+https://www.dropbox.com/sh/wh7ic7sec3v3swl/AACDAX5LY9XgbINSziLrQd31a/MaggieData/NM_139078/Hela?dl=0&subfolder_nav_tracking=1
