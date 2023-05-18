@@ -1,6 +1,12 @@
 # Spot-detection-for-FISH-image
 ## Introduction
+
 ## Dependency
+
+1. Cell segmentation https://www.kaggle.com/datasets/rdizzl3/hpacellsegmentatormaster
+2. Spot labeling https://github.com/arjunrajlaboratory/rajlabimagetools
+3. requirements.txt
+
 ## How to train a model on your dataset
 ### Configure your dataset
 
