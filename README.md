@@ -3,7 +3,7 @@
 
 ## Dependency
 
-1. Cell segmentation https://www.kaggle.com/datasets/rdizzl3/hpacellsegmentatormaster
+1. Cell segmentation https://www.kaggle.com/code/linshokaku/faster-hpa-cell-segmentation
 2. Spot labeling https://github.com/arjunrajlaboratory/rajlabimagetools
 3. requirements.txt
 
@@ -18,23 +18,25 @@ mkdir raw
 cd Spot-detection-for-FISH-image
 python get_meta.py
 ```
-Upload your data in folder raw and modify the path before running get_meta.py
+Before running: upload your data in folder raw and modify get_meta.py
 
 raw/ should contain fov folders, each contains a set of 3d images of channel dapi, trans, cy, alexa,... and the images are named in format 'dapi001.tif','alexa001.tif'
 
 A summary of raw image directory, named 'meta.csv', will be output in name_project/
 
 ### Cell segmentation
+Install the package mentioned in dependency (reset path for model weights is required)
 ```
 python run_seg.py
 ```
 Segmentation results will be saved in name_project/seg and figures for visualizing in name_project/view/seg
 
 ### Spot labeling
+Download and configure path for the package mentioned in dependency, then add or substitute the 3 documents of matlab_add/ in the rajlabimagetools/
 ```
 matlab Main();
 ```
-You can select any number of fov to label spots by modifying the last column todo in 'meta.csv'
+Before running: Modify the last column todo in 'meta.csv' to select fov and modify Main.m to read correctly 'meta.csv'  
 
 Results will be saved in name_project/spot_detect_matlab
 
@@ -50,5 +52,5 @@ Model will be saved in name_project/model and figures for visualizing in name_pr
 ```
 python stat.py
 ```
-Modify the path of images to predict before running the code
+Before running: Modify the path of images to predict before running the code
 
