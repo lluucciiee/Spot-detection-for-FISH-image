@@ -20,7 +20,7 @@ python get_meta.py
 ```
 Before running: upload your data in folder raw and modify get_meta.py
 
-raw/ should contain fov folders, each contains a set of 2d/3d images of channel dapi, trans, cy, alexa,... and the images are named in format 'dapi001.tif','alexa001.tif'
+raw/ should contain fov folders, each contains a set of images of channel dapi, trans, cy, alexa,... and the images are named in format 'dapi001.tif','alexa001.tif'.
 
 A summary of raw image directory, named 'meta.csv', will be output in name_project/
 
