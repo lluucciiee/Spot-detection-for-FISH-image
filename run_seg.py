@@ -8,7 +8,9 @@ import matplotlib.pyplot as plt
 plt.switch_backend('agg')
 
 from get_meta import load_io
-from cell_seg import CellSegmentator,label_cell
+from hpacellseg.cellsegmentator import CellSegmentator
+from hpacellseg.utils import label_cell
+
 
 def normalize(x):
     mmax,mmin=np.max(x),np.min(x)
